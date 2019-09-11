@@ -1,1 +1,5 @@
-.editorconfig
+.ipynb_checkpoints
+.idea
+white_quant/result
+white_quant/**/*.pyc
+notebook/tmp_data/
