@@ -19,6 +19,8 @@ def get_stock_mysql_config():
     cf['pwd'] = config.get('stock_db', 'pwd')
     return cf
 
+from unittest import TestCase
+
 df = pd.DataFrame({'columns':[1,2,3],'columns2':['a','b','c']})
 print(df)
 df.to_sql('test', con=engine, if_exists='append')
